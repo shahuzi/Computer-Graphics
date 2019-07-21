@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>80</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文行楷</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="text">
+     <string>计算机图形学作业</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>250</y>
+      <width>431</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="text">
+     <string>SA17006184            2017/11/1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文行楷</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="text">
+     <string>吴鹏飞</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>560</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>图元</string>
+    </property>
+    <addaction name="LineBtn"/>
+    <addaction name="separator"/>
+    <addaction name="CircleBtn"/>
+    <addaction name="separator"/>
+    <addaction name="EllipseBtn"/>
+    <addaction name="separator"/>
+    <addaction name="FillBtn"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>样条曲线</string>
+    </property>
+    <addaction name="BezierBtn"/>
+    <addaction name="separator"/>
+    <addaction name="BSplineBtn"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>分形图形</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="KochBtn"/>
+    <addaction name="separator"/>
+    <addaction name="MandelbrotBtn"/>
+    <addaction name="separator"/>
+    <addaction name="JuliaBtn"/>
+    <addaction name="separator"/>
+    <addaction name="FernBtn"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="LineBtn">
+   <property name="text">
+    <string>直线</string>
+   </property>
+  </action>
+  <action name="CircleBtn">
+   <property name="text">
+    <string>圆</string>
+   </property>
+  </action>
+  <action name="EllipseBtn">
+   <property name="text">
+    <string>椭圆</string>
+   </property>
+  </action>
+  <action name="FillBtn">
+   <property name="text">
+    <string>填充</string>
+   </property>
+  </action>
+  <action name="BezierBtn">
+   <property name="text">
+    <string>Bezier曲线</string>
+   </property>
+  </action>
+  <action name="BSplineBtn">
+   <property name="text">
+    <string>B-样条曲线</string>
+   </property>
+  </action>
+  <action name="KochBtn">
+   <property name="text">
+    <string>Koch</string>
+   </property>
+  </action>
+  <action name="MandelbrotBtn">
+   <property name="text">
+    <string>Mandelbrot</string>
+   </property>
+  </action>
+  <action name="JuliaBtn">
+   <property name="text">
+    <string>Julia</string>
+   </property>
+  </action>
+  <action name="FernBtn">
+   <property name="text">
+    <string>蕨类植物</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
